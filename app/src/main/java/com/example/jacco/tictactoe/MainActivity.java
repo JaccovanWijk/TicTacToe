@@ -39,13 +39,13 @@ public class MainActivity extends AppCompatActivity {
 
         switch(tile) {
             case CROSS:
-                //fdg
+                button.setText("X");
                 break;
             case CIRCLE:
-                // dso
+                button.setText("O");
                 break;
             case INVALID:
-                //do something
+
                 break;
         }
 
