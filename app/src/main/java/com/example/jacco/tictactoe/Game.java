@@ -24,7 +24,6 @@ public class Game {
     }
 
     public Tile draw(int row, int column) {
-
         if (board[row][column] == Tile.BLANK) {
             if (playerOneTurn) {
                 board[row][column] = Tile.CROSS;
@@ -35,7 +34,6 @@ public class Game {
                 playerOneTurn = true;
                 return Tile.CIRCLE;
             }
-
         } else {
             return Tile.INVALID;
         }
