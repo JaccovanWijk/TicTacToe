@@ -9,7 +9,7 @@
 
     <GridLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1">
 
@@ -27,7 +27,7 @@
             android:layout_column="1"
             android:layout_row="0"
             android:onClick="tileClicked"
-            android:textSize="60sp"/>
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/t3"
@@ -36,7 +36,7 @@
             android:layout_column="2"
             android:layout_row="0"
             android:onClick="tileClicked"
-            android:textSize="60sp"/>
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/t4"
@@ -45,7 +45,7 @@
             android:layout_column="0"
             android:layout_row="1"
             android:onClick="tileClicked"
-            android:textSize="60sp"/>
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/t5"
@@ -54,7 +54,7 @@
             android:layout_column="1"
             android:layout_row="1"
             android:onClick="tileClicked"
-            android:textSize="60sp"/>
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/t6"
@@ -63,7 +63,7 @@
             android:layout_column="2"
             android:layout_row="1"
             android:onClick="tileClicked"
-            android:textSize="60sp"/>
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/t7"
@@ -72,7 +72,7 @@
             android:layout_column="0"
             android:layout_row="2"
             android:onClick="tileClicked"
-            android:textSize="60sp"/>
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/t8"
@@ -81,7 +81,7 @@
             android:layout_column="1"
             android:layout_row="2"
             android:onClick="tileClicked"
-            android:textSize="60sp"/>
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/t9"
@@ -90,8 +90,17 @@
             android:layout_column="2"
             android:layout_row="2"
             android:onClick="tileClicked"
-            android:textSize="60sp"/>
+            android:textSize="60sp" />
+
     </GridLayout>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="switchCheck"
+        android:text="   AI Player two" />
 
     <Button
         android:id="@+id/reset"
@@ -100,4 +109,5 @@
         android:layout_gravity="center"
         android:onClick="resetClicked"
         android:text="New Game" />
+
 </LinearLayout>
